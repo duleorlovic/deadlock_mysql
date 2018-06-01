@@ -1,7 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+_bob = Farmer.where(name: 'Bob', coin: 100).first_or_create!
+jack = Farmer.where(name: 'Jack', coin: 100).first_or_create!
+Tractor.where(model: 'Massey', farmer: jack).first_or_create!
+Tractor.where(model: 'John Deere', farmer: jack).first_or_create!

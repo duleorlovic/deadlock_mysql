@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  coin: 1
+bob:
+  name: Bob
+  coin: 100
 
-two:
-  name: MyString
-  coin: 1
+jack:
+  name: Jack
+  coin: 100
